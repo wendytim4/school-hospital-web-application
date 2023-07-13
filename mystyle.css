@@ -1,0 +1,332 @@
+
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border-radius: 8px;
+	
+	
+  }
+
+
+
+  body {
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 1.6;
+	background: #D9EEE1;
+   
+	
+  }
+
+
+  .container {
+	margin: auto;
+	width: 500px;
+	overflow: auto;
+	padding: 3rem 2rem;
+	box-sizing: border-box;
+  }
+  
+  #my-form {
+	padding:2rem;
+	background:#D9EEE1;
+
+
+	
+  }
+
+
+
+  
+#nambs
+{
+  
+
+   color:#000249; 
+   font-family: Arial, Helvetica, sans-serif;
+   letter-spacing: 0.2em; 
+   margin-left: 140px;
+ 
+   
+
+}
+
+#healthclinic
+{
+
+  color:green;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 0.3em;
+ float: cent;
+ margin-left: 160px;
+ font-weight: bolder;   
+}
+
+img
+{
+	margin-left: 100px;
+	
+}
+
+.myinput
+{
+	height:60px;
+	width:100%;
+	text-align: center;
+	position: center;
+	font-size: 30px;
+}
+
+.container input[type='text'] {
+
+	padding: 30px;
+	margin-bottom: 38px;
+	height: 50px;
+	text-align: center;
+	font-size: 30px;
+	border-radius: 0px;
+	border-color: whitesmoke;
+	
+  }
+  
+.container input[type='password'] {
+	  height: 50px;
+	  padding: 30px;
+	  margin-bottom: 10px;
+	  border-radius: 0px;
+	  border-color: whitesmoke;
+	}
+  
+.btn {
+	display: block;
+	width: 100%;
+	padding: 20px 40px;
+	border: 0;
+	background: #04AA6D;
+	color:white;
+	margin: 5px 0;
+	text-align: center;
+	font-weight: bold;
+	text-decoration: none;
+	font-size:18px;
+}
+  
+.btn:hover {
+	background: lightgray;
+}
+
+button.signupbtn 
+  {
+	display: inline;
+	padding: 20px 40px;
+	border: none;
+	color: #04AA6D;
+	margin-left: 31%;
+	margin-top: -4%;
+	background:none;
+	font-size: 16px;
+	font-weight: bolder;
+	text-decoration: underline;
+  }
+
+.forgotpasswordbtn
+{
+	display: inline;
+	border: none;
+	color: #04AA6D;
+	margin-left: 45%;
+	margin-top: -4%;
+	background:none;
+	font-size: 16px;
+	font-weight: bolder;
+	text-decoration: underline;
+  }
+  
+
+  /* Full-width input fields */
+.contaner input[type=text] {
+	width: 100%;
+	padding: 15px;
+	margin: 5px 0 22px 0;
+	display: inline-block;
+	border: none;
+	background: #f1f1f1;
+  }
+
+.contaner  input[type=password] {
+	width: 100%;
+	padding: 15px;
+	margin: 5px 0 22px 0;
+	display: inline-block;
+	border: none;
+	background: #f1f1f1;
+  }
+  
+  
+  /* Add a background color when the inputs get focus */
+  .contaner input[type=text]:focus {
+	background-color: #ddd;
+	outline: none;
+  }
+
+  .contaner input[type=password]:focus {
+	background-color: #ddd;
+	outline: none;
+  }
+  button:hover {
+	opacity:1;
+  }
+  
+ 
+.secondsignupbtn{
+	background-color: #04AA6D;
+	color: white;
+	padding: 14px 20px;
+	margin: 8px 0;
+	border: 0;
+	cursor: pointer;
+	width: 50%;
+	opacity: 0.9;
+  
+	}
+.Thirdsignupbtn
+{
+	background-color: #04AA6D;
+	color: white;
+	padding: 14px 20px;
+	margin: 8px 0;
+	border: 0;
+	cursor: pointer;
+	width: 50%;
+	opacity: 0.9;
+
+}
+   
+
+  
+  /* Extra styles for the cancel button */
+  .cancelbtn {
+	background-color: #04AA6D;
+	color: white;
+	padding: 14px 20px;
+	margin: 8px 0;
+	border: 0;
+	cursor: pointer;
+	width: 50%;
+	opacity: 0.9;
+  
+	}
+   
+  /* Float cancel and signup buttons and add an equal width */
+  .cancelbtn, .signupbtn {
+	float: left;
+	width: 50%;
+  }
+  
+  /* Add padding to container elements */
+  .contaner {
+	padding: 16px;
+  }
+  
+  /* The Modal (background) */
+  .modal {
+	display: none; /* Hidden by default */
+	position: fixed; /* Stay in place */
+	z-index: 1; /* Sit on top */
+	left: 0;
+	top: 0;
+	width: 100%; /* Full width */
+	height: 100%; /* Full height */
+	overflow: auto; /* Enable scroll if needed */
+	background-color: rgba(255, 255, 255, 0.5);
+	padding-top: 20px;
+
+
+  }
+  
+  /* Modal Content/Box */
+  .modal-content {
+	background-color: #fefefe;
+	margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+	border: 1px solid #888;
+	width: 40%; /* Could be more or less, depending on screen size */
+  }
+  
+  /* Style the horizontal ruler */
+  hr {
+	border: 1px solid #f1f1f1;
+	margin-bottom: 25px;
+  }
+   
+  /* The Close Button (x) */
+  .close {
+	position: absolute;
+	right: 35px;
+	top: 15px;
+	font-size: 40px;
+	font-weight: bold;
+	color: black;
+  }
+  
+  .close:hover,
+  .close:focus {
+	color: #f44336;
+	cursor: pointer;
+  }
+  
+  /* Clear floats */
+  .clearfix::after {
+	content: "";
+	clear: both;
+	display: table;
+  }
+  
+  /* Change styles for cancel button and signup button on extra small screens */
+  @media screen and (max-width: 300px) {
+	.cancelbtn, .signupbtn {
+	   width: 100%;
+	}
+  }
+
+
+  /* The message box is shown when the user clicks on the password field */
+#message {
+	display:none;
+	background: #f1f1f1;
+	color: #000;
+	position: relative;
+	padding: 20px;
+	margin-top: 10px;
+  }
+  
+  #message p {
+	padding: 10px 35px;
+	font-size: 18px;
+  }
+  
+  /* Add a green text color and a checkmark when the requirements are right */
+  .valid {
+	color: green;
+  }
+  
+  .valid:before {
+	position: relative;
+	left: -35px;
+	content: "✔";
+  }
+  
+  /* Add a red text color and an "x" when the requirements are wrong */
+  .invalid {
+	color: red;
+  }
+  
+  .invalid:before {
+	position: relative;
+	left: -35px;
+	content: "✖";
+  }
+
+
+
+  
